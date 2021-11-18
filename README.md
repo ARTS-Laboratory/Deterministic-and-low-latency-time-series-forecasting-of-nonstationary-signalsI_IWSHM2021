@@ -1,5 +1,5 @@
 # IWSHM2021_MLP_hardware_implementation:
-Hardware Validation:
+## Hardware Validation:
 In this work, hardware validation is done on a Kintex-7 70T FPGA housed in a NI
 cRIO-9035 that also incorporates a CPU running NI Linux Real-Time. Fig. 1 diagrams
 how data is collected and processed on the FPGA, as well as how data is transmitted
