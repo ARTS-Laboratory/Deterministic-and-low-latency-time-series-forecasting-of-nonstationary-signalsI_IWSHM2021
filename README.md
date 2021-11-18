@@ -15,8 +15,8 @@ forward pass) to obtain a prediction that is then passed to the attention layer 
 final prediction of the signal 25 clock cycles (1 ms) into the future is produced.
 ![flowchart1](https://user-images.githubusercontent.com/60459286/142488752-07980fbc-af0c-421f-89fc-0f8f7b2a07bc.png)
          Figure 1. Flow chart of data collection and processing in parallel MLP tracks
-## Resulta:
-The deterministic characteristics of the algorithm are provided by the FPGA implementation, timing, and resource utilization are discussed here. The FPGA’s base clock
+## Result:
+The deterministic characteristics of the algorithm are provided by the FPGA implementation, timing, and resource utilization are discussed here. The FPGA’s base clock
 is compiled at 80 MHz and a single pass through the algorithm takes 2,005 clock ticks
 (25.76 µs). As a new sample is digitized every 40 µs, the system is dormant for 1,195
 clock ticks (14.24 µs) between each iteration as it waits for a new data point to be added
@@ -25,5 +25,6 @@ of the process. Resource utilization is presented in Table 1, which reports the 
 utilization in terms of slices used, slice availability, and percentage (%).
 ![resource](https://user-images.githubusercontent.com/60459286/142489065-2179161a-58b5-4365-bde1-90860abf6e35.png)
         Figure 2. Time required for different aspects of the process.
+        
         Table 1. The FPGA elements are shown by device utilization.
         ![image](https://user-images.githubusercontent.com/60459286/142489219-023aa639-a553-4f5b-8f69-f80bcc55eb5c.png)
