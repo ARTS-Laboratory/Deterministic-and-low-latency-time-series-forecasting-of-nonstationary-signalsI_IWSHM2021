@@ -27,4 +27,4 @@ utilization in terms of slices used, slice availability, and percentage (%).
         Figure 2. Time required for different aspects of the process.
         
         Table 1. The FPGA elements are shown by device utilization.
-        ![image](https://user-images.githubusercontent.com/60459286/142489219-023aa639-a553-4f5b-8f69-f80bcc55eb5c.png)
+ ![image](https://user-images.githubusercontent.com/60459286/142489219-023aa639-a553-4f5b-8f69-f80bcc55eb5c.png)
