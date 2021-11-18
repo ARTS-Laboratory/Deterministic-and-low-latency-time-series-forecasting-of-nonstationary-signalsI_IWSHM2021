@@ -28,3 +28,9 @@ utilization in terms of slices used, slice availability, and percentage (%).
         
         Table 1. The FPGA elements are shown by device utilization.
  ![image](https://user-images.githubusercontent.com/60459286/142489219-023aa639-a553-4f5b-8f69-f80bcc55eb5c.png)
+## V4.5.9:
+3 MLP's
+Main goal: measure computational time for different resources.
+Making SubVI's of large calculation part( Data manipulation MLP 1/2/3, MLP forwardpass for MLP1/2/3, Attention layer and backpropagation).
+One flat sequence inside whole MLP's (case structure). Which has 7 FIFO's for measuring (a) start tick (b) Data In (c) Subsampling (d) Data manipulation (e) MLP forwardpass (f) Attention layer and backpropagation and (g) end tick.
+Run in compile mode.
