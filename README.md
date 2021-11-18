@@ -14,4 +14,4 @@ ranging the data between -1 to 1. Next, the normalized data is fed through the M
 forward pass) to obtain a prediction that is then passed to the attention layer before a
 final prediction of the signal 25 clock cycles (1 ms) into the future is produced.
 ![flowchart1](https://user-images.githubusercontent.com/60459286/142488752-07980fbc-af0c-421f-89fc-0f8f7b2a07bc.png)
-Figure 1. Flow chart of data collection and processing in parallel MLP tracks
+         Figure 1. Flow chart of data collection and processing in parallel MLP tracks
