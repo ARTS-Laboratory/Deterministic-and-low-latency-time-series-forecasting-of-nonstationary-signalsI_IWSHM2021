@@ -1,4 +1,4 @@
-# IWSHM2021_MLP_hardware_implementation:
+# Deterministic-and-low-latency-time-series-forecasting-of-nonstationary-signalsI_IWSHM2021_hardware_implementation:
 ## Hardware Validation:
 In this work, hardware validation is done on a Kintex-7 70T FPGA housed in a NI
 cRIO-9035 that also incorporates a CPU running NI Linux Real-Time. Fig. 1 diagrams
