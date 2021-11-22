@@ -22,7 +22,7 @@ final prediction of the signal 25 clock cycles (1 ms) into the future is produce
 * Making SubVI's of large calculation part( Data manipulation MLP 1/2/3, MLP forwardpass for MLP1/2/3, Attention layer and backpropagation).
 * One flat sequence inside whole MLP's (case structure). Which has 7 FIFO's for measuring (a) start tick (b) Data In (c) Subsampling (d) Data manipulation (e) MLP forwardpass (f) Attention layer and backpropagation and (g) end tick.
 * Run in compile mode.
-* Open with 4.5.9.lvproj>host.vi(shows the output) and target.vi(whol MLP algothithum code)
+* Open with 4.5.9.lvproj>host.vi(shows the output) and target.vi(whole MLP algothithum code)
 * Used data: \data\data_set_1\data_Vahid_100points.csv
 ## Result:
 The deterministic characteristics of the algorithm are provided by the FPGA implementation, timing, and resource utilization are discussed here. The FPGA’s base clock
