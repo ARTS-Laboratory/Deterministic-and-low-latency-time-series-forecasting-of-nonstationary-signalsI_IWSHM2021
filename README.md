@@ -16,7 +16,7 @@ final prediction of the signal 25 clock cycles (1 ms) into the future is produce
 ![flowchart1](https://user-images.githubusercontent.com/60459286/142488752-07980fbc-af0c-421f-89fc-0f8f7b2a07bc.png)
          Figure 1. Flow chart of data collection and processing in parallel MLP tracks
 
-## V4.5.9:
+## code/FPGA:
 * 3 MLP's
 * Main goal: measure computational time for different resources.
 * Making SubVI's of large calculation part( Data manipulation MLP 1/2/3, MLP forwardpass for MLP1/2/3, Attention layer and backpropagation).
