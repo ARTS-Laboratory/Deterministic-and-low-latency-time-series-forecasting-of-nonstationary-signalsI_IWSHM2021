@@ -1,4 +1,4 @@
-# Code repository for the paper  Deterministic and low-latency time-series forecasting of nonstationary signals
+# Code repository for the paper "Deterministic and low-latency time-series forecasting of nonstationary signals"
 
 > **_REFERENCE:_**  Puja Chowdhury, Vahid Barzegar, Joud Satme, Austin R.J. Downey, Simon Laflamme, Jason D. Bakos, and Chao Hub. Deterministic and low-latency time-series forecasting of nonstationary signals. In Proceedings of 2022 SPIE Smart Structures + Nondestructive Evaluation, 2022 
 
